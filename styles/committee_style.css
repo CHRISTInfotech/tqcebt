@@ -1,0 +1,83 @@
+/* Section styling */
+.committee-section {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* Main headers (h2) */
+.committee-section h2 {
+    color: #1a3a6d;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Sub-headers (h3) */
+.committee-section h3 {
+    color: #4a86e8;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Horizontal rules styling */
+.committee-section hr {
+    height: 2px;
+    background: linear-gradient(to right, #1a3a6d, #4a86e8);
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* List styling */
+.committee-section ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.committee-section li {
+    color: #333333;
+    padding: 6px 0;
+    position: relative;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Custom bullet points */
+.committee-section li::before {
+    content: "•";
+    color: #e8c04a;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 18px;
+}
+
+/* Hover effect for list items */
+.committee-section li:hover {
+    border-radius: 3px;
+}
+
+/* Spacing for sub-committees */
+.sub-committee {
+    margin-bottom: 15px;
+}
+
+/* Additional styles for better mobile responsiveness */
+@media (max-width: 768px) {
+    .committee-section h2 {
+        font-size: 22px;
+    }
+    
+    .committee-section h3 {
+        font-size: 18px;
+    }
+    
+    .committee-section li {
+        font-size: 14px;
+    }
+}
