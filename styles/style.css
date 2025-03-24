@@ -1,8 +1,8 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(45deg, #a11414,  #fdfeff, #b3e0ff, #fdfeff);
-    background-size: 400% 400%;
+    background: linear-gradient(45deg, #fdfeff,  #fdfeff, #b3e0ff,#fa7d7d );
+    background-size: 400% 100%;
     animation: gradientRotation 10s ease infinite;
 }
 
