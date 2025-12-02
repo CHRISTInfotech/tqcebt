@@ -48,7 +48,7 @@
 
 /* Custom bullet points */
 .committee-section li::before {
-    content: "•";
+    content: "\2022";
     color: #e8c04a;
     font-weight: bold;
     display: inline-block;
@@ -81,3 +81,4 @@
         font-size: 14px;
     }
 }
+
