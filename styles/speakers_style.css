@@ -103,6 +103,7 @@
 .speaker-meta-item p {
     color: var(--speaker-ink);
     line-height: 1.8;
+    text-align: justify;
 }
 
 @media (max-width: 991.98px) {
