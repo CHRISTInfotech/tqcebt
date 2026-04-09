@@ -152,6 +152,31 @@
     min-height: 220px;
 }
 
+.speaker-photo-placeholder {
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    border-radius: 24px;
+    color: var(--speaker-ink);
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    justify-content: center;
+    min-height: 220px;
+    text-align: center;
+}
+
+.speaker-photo-placeholder i {
+    color: var(--speaker-highlight);
+    font-size: 2.4rem;
+}
+
+.speaker-photo-placeholder span {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
 .speaker-content {
     display: contents;
 }
@@ -239,6 +264,10 @@
         min-height: 260px;
     }
 
+    .speaker-photo-placeholder {
+        min-height: 260px;
+    }
+
     .workshop-card::before {
         height: 6px;
         left: 1.5rem;
@@ -268,6 +297,11 @@
     }
 
     .speaker-photo {
+        border-radius: 20px;
+        min-height: 220px;
+    }
+
+    .speaker-photo-placeholder {
         border-radius: 20px;
         min-height: 220px;
     }
